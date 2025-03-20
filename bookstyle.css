@@ -1,0 +1,52 @@
+body {
+    padding: 20px;
+    background: linear-gradient(to left, rgba(181, 166, 69, 0), rgb(180, 201, 87));
+}
+
+header {
+    height: 10vh;
+    background-color: rgb(41, 38, 38);
+}
+
+.feed {
+    background-color: rgb(163, 152, 152);
+}
+
+details {
+    margin-top: 10px;
+}
+
+summary {
+    font-weight: bolder;
+}
+
+footer {
+    background-color: rgb(41, 38, 38);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 50px;
+}
+
+.btnActive:active {
+    color: red;
+}
+
+.click {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+}
+
+@media screen and (orientation: portrait) {
+
+    .click {
+        width: 390px;
+    }
+
+    textarea {
+        width: 210px !important;
+    }
+
+}
